@@ -52,7 +52,7 @@ public class SimpleStream {
         return new KafkaStreams(builder.build(), streamsConfiguration);
     }
 
-    public static void main(final String[] args) throws Exception {
+    public static void main(final String[] args) {
         final String bootstrapServers = args.length > 0 ? args[0] : "localhost:9092";
 
         KafkaStreams streams = SimpleStream.getStream(bootstrapServers);

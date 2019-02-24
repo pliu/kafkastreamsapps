@@ -27,12 +27,12 @@ class SimpleStreamTest {
     }
 
     @Test
-    void test1() throws Exception {
+    void testSimpleStream() throws Exception {
         KafkaStreams streams = SimpleStream.getStream(kafkaServer.getBootstrapServers());
         streams.cleanUp();
         streams.start();
         Runtime.getRuntime().addShutdownHook(new Thread(streams::close));
-        Thread.sleep(10000);
+        Thread.sleep(5000);
         streams.close();
     }
 }
