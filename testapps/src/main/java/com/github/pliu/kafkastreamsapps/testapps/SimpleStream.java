@@ -1,4 +1,4 @@
-package io.github.pliu.kafkastreamsapps.testapps;
+package com.github.pliu.kafkastreamsapps.testapps;
 
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;

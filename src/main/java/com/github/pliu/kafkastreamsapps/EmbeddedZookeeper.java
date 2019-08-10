@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package io.github.pliu.kafkastreamsapps;
+package com.github.pliu.kafkastreamsapps;
 
 import org.apache.zookeeper.server.NIOServerCnxnFactory;
 import org.apache.zookeeper.server.ZooKeeperServer;
