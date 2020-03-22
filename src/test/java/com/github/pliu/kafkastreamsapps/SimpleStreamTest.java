@@ -1,6 +1,6 @@
-package com.github.pliu.kafkastreamsapps.testapps;
+package com.github.pliu.kafkastreamsapps;
 
-import com.github.pliu.kafkastreamsapps.EmbeddedKafka;
+import com.github.pliu.kafkastreamsapps.utils.EmbeddedKafka;
 import org.apache.kafka.streams.KafkaStreams;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

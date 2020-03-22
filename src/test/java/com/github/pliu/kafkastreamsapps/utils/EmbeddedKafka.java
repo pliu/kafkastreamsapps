@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.github.pliu.kafkastreamsapps;
+package com.github.pliu.kafkastreamsapps.utils;
 
 import kafka.server.KafkaConfig;
 import kafka.server.KafkaServerStartable;
